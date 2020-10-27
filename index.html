@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+ 
+<head>
+    <title>Google_Homepage</title>
+    <style>
+        footer {
+            position: absolute;
+            bottom: 0;
+            background-color: #d9dddc;
+            display: block;
+            width: 99%;     
+        }
+ 
+        ul {
+            list-style-type: none;
+ 
+        }
+ 
+        li {
+            display: inline;
+ 
+        }
+ 
+        a {
+            text-decoration: none;
+            color: rgb(105, 105, 105);
+            padding: 10px;
+            font-size: 19px;
+        }
+ 
+        input:focus {
+ 
+            outline-color: whitesmoke;
+        }
+ 
+        #googleLogo {
+            display: block;
+            position: absolute;
+            margin: auto;
+            top: 0;
+            right: 0;
+            bottom: 30%;
+            left: 0;
+        }
+ 
+        .searchBar {
+ 
+            position: absolute;
+            margin: auto;
+            height: 37px;
+            width: 550px;
+            border: none;
+            outline-color: whitesmoke;
+            box-shadow: 0px 0px 1px 1px rgb(223, 222, 222);
+            border-radius: 20px;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+ 
+        input:hover {
+            box-shadow: 0px 0px 4px 5px rgb(224, 224, 224);
+        }
+ 
+        #searchButton {
+ 
+            position: absolute;
+            margin: auto;
+            height: 20px;
+            width: 170px;
+            border: none;
+            outline-color: whitesmoke;
+            box-shadow: 0px 0px 4px 5px rgb(235, 235, 235);
+            border-radius: 2px;
+            top: 20%;
+            left: 0;
+            right: 200px;
+            bottom: 0;
+        }
+ 
+        #luckyButton {
+ 
+            position: absolute;
+            margin: auto;
+            height: 20px;
+            width: 170px;
+            border: none;
+            outline-color: whitesmoke;
+            box-shadow: 0px 0px 4px 5px rgb(235, 235, 235);
+            border-radius: 2px;
+            top: 20%;
+            left: 200px;
+            right: 0;
+            bottom: 0;
+        }
+ 
+        .left {
+            float: left;
+        }
+ 
+        .right {
+            float: right;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div>
+        <img id="googleLogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
+            alt=" ">
+    </div>
+    <ul class="right">
+        <li><a href="#">Gmail</a></li>
+        <li><a href="#">Images</a></li>
+ 
+    </ul>
+    <div>
+        <form>
+            <input class="searchBar" id="searchBar">
+            <input id="searchButton" type="submit" value="Google Search">
+            <input id="luckyButton" type="submit" value="I'm Feeling Lucky">
+        </form>
+    </div>
+ 
+</body>
+ 
+<footer>
+    <ul>
+        <li class="left"><a href="#">Advertising</a></li>
+        <li class="left"><a href="#">Business</a></li>
+        <li class="left"><a href="#">How Search Works</a></li>
+        <li class="right"><a href="#">Settings</li>
+        <li class="right"><a href="#">Privacy</a></li>
+        <li class="right"><a href="#">Terms</a></li>
+    </ul>
+</footer>
